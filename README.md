@@ -1,6 +1,6 @@
 <div align="center">
   <img 
-    height="150px" 
+    height="175px" 
     src=".github/assets/images/profile.png" 
     alt="Profile Photo."
   />
