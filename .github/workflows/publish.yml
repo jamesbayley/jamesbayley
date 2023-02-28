@@ -29,8 +29,8 @@ jobs:
           template: .azure/templates/main.bicep
           parameters: static_web_app_name=${{ vars.STATIC_WEB_APP_NAME }}
           failOnStdErr: true
-        
-  publish-static-web-app:
+   
+  publish_static_web_app:
     name: Publish Static Web App
     runs-on: Ubuntu-Latest
     needs: build_infrastructure
