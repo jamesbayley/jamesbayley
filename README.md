@@ -5,8 +5,7 @@
     alt="Profile Photo."
   />
 
-  <h1>jamesbayley.dev</h1>
-  <p>My Personal Headspace 💭</p>
+  <h1>My Personal Headspace 💭</h1>
 
   [![Publish to Production](https://github.com/jamesbayley/jamesbayley.dev/actions/workflows/publish.yml/badge.svg)](https://github.com/jamesbayley/jamesbayley.dev/actions/workflows/publish.yml)
 </div>
