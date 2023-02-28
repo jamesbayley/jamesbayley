@@ -1,4 +1,10 @@
 <div align="center">
+  <img 
+    height="150px" 
+    src=".github/assets/images/profile.jpg" 
+    alt="Profile Photo."
+  />
+
   <h1>jamesbayley.dev</h1>
   <p>My Personal Headspace 💭</p>
 
