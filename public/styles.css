@@ -318,3 +318,11 @@ footer > a:hover > img {
     from, to { border-color: transparent }
     50% { border-color: var(--primary-color); }
   }
+
+
+/* Page visibility restored after parsing full CSS file to avoid flash over. */
+
+html {
+    visibility: visible;
+    opacity: 1;
+}
