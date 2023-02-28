@@ -1,4 +1,4 @@
-name: Publish jamesbayley.dev to Production
+name: Publish to Production
 
 on:
   push: 
