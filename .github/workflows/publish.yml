@@ -27,7 +27,7 @@ jobs:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }} 
           resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP }}
           template: .azure/templates/main.bicep
-          parameters: static_web_app_name=${{ vars.STATIC_WEB_APP_NAME }}
+          parameters: static_web_app_name=${{ vars.STATIC_WEB_APP_NAME }} location=${{ secrets.AZURE_DEPLOYMENT_LOCATION }}
           failOnStdErr: true
    
   publish_static_web_app:
