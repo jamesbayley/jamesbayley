@@ -2,7 +2,7 @@
   <h1>jamesbayley.dev</h1>
   <p>My Personal Headspace 💭</p>
 
-  [![Production](https://github.com/jamesbayley/jamesbayley.github.io/actions/workflows/publish.yml/badge.svg)](https://github.com/jamesbayley/jamesbayley.github.io/actions/workflows/publish.yml)
+  [![Publish to Production](https://github.com/jamesbayley/jamesbayley.dev/actions/workflows/publish.yml/badge.svg)](https://github.com/jamesbayley/jamesbayley.dev/actions/workflows/publish.yml)
 </div>
 
 ## Welcome 👋🏻
