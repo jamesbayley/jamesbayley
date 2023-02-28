@@ -5,60 +5,22 @@ on:
     branches: main
   
 jobs:
-#   build_infrastructure:
-#     name: Build Azure Infrastructure
-#     runs-on: Ubuntu-Latest
-#     environment: Production
-    
-#     steps:
-#       - name: Login via Azure CLI
-#         uses: azure/login@v1
-#         with:
-#           creds: ${{ secrets.AZURE_CREDENTIALS }} 
-        
-#       - name: Checkout Repository
-#         uses: actions/checkout@v3
-        
-#       - name: Deploy ARM Templates
-#         uses: azure/arm-deploy@v1
-#         with:
-#           deploymentName: Production
-#           deploymentMode: Complete
-#           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION_ID }} 
-#           resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP }}
-#           template: .azure/templates/main.bicep
-#           parameters: static_web_app_name=${{ vars.STATIC_WEB_APP_NAME }} location=${{ secrets.AZURE_DEPLOYMENT_LOCATION }}
-#           failOnStdErr: true
-   
   publish_static_web_app:
     name: Publish Static Web App
     runs-on: Ubuntu-Latest
-#     needs: build_infrastructure
     environment:
       name: Production
       url: ${{ steps.deploy.outputs.static_web_app_url }}
       
     steps:
-      - name: Login via Azure CLI
-        uses: azure/login@v1
-        with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }} 
-          
       - name: Checkout Repository
         uses: actions/checkout@v3
-      
-      - name: Fetch Static Web App Token
-        uses: azure/CLI@v1
-        with:
-          inlineScript: |
-            key=$(az staticwebapp secrets list -n ${{ vars.STATIC_WEB_APP_NAME }} | jq -r ".properties.apiKey")
-            echo "STATIC_WEB_APP_TOKEN=$key" >> $GITHUB_ENV
       
       - name: Deploy Static Web App
         uses: azure/static-web-apps-deploy@v1
         id: deploy
         with:
-          azure_static_web_apps_api_token: ${{ env.STATIC_WEB_APP_TOKEN }}
+          azure_static_web_apps_api_token: ${{ secrets.STATIC_WEB_APP_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           api_location: ""
