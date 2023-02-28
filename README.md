@@ -10,14 +10,15 @@
   [![Publish to Production](https://github.com/jamesbayley/jamesbayley.dev/actions/workflows/publish.yml/badge.svg)](https://github.com/jamesbayley/jamesbayley.dev/actions/workflows/publish.yml)
 </div>
 
-## Welcome 👋🏻
+## Table of Contents
 
-This site is a deposit box for my thoughts, opinions and predictions on the future of technology, construction, engineering, education, etc. I make no guarantees as to the frequency of posts and updates to the content on the site; it is a personal hobby project and I will dedicate time to it, as and when I can. 
+- [Welcome](#welcome)
+- [Disclaimer](#disclaimer)
 
-Nevertheless, I hope that others may find some useful ideas and inspiration within my writing and examples that may assist them in developing their skills. I am a strong proponent of the *lean web* and strive for simple solutions where feasible. Thus, the architecture of this site is basic (almost primitive), but it hopefully demonstrates what is possible with nothing but a solid understanding of basic HTML, CSS, and a little JavaScript.
+## Welcome
 
-I thank you for taking the time to peruse my work! Any suggestions or recommendations are welcome, but please be kind 😉
+This site is a deposit box for my thoughts and opinions on technology, construction, engineering, education, etc. I hope that others find some value and inspiration in my writing that helps them to develop their skills.
 
-## Disclaimer ⚠️
+## Disclaimer
 
 All views and opinions are my own, and do not necessarily represent those of my employer.
