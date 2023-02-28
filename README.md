@@ -1,7 +1,7 @@
 <div align="center">
   <img 
     height="150px" 
-    src=".github/assets/images/profile.jpg" 
+    src=".github/assets/images/profile.png" 
     alt="Profile Photo."
   />
 
