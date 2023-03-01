@@ -12,8 +12,8 @@
 
 ## Table of Contents
 
-- [Welcome](#welcome)
-- [Disclaimer](#disclaimer)
+1. [Welcome](#welcome)
+2. [Disclaimer](#disclaimer)
 
 ## Welcome
 
