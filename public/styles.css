@@ -295,29 +295,57 @@ footer > a:hover > img {
     transition: transform linear 0.05s;
 }
 
+img#avatar {
+    z-index: 999;
+    height: auto;
+    width: 22.5rem;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-name: rotate-memoji;
+    transform: rotate(40deg);
+    position: fixed;
+    left: -7rem;
+    top: 15%;
+}
+
+@keyframes rotate-memoji { 
+    from { 
+        transform: rotate(0deg);
+        left: -30.0rem;
+    }   
+}
+
 
 /* Banner appears to 'type' onto the screen. */
 
-#banner > h1 { 
-    max-width: fit-content; /* Prevents caret from continuing to the screen edge. */
-    overflow: hidden; /* Hides characters that have not yet been 'typed'. */
-    white-space: nowrap; /* Ensures banner remains on a single line. */
-    padding-inline: 0.3rem; /* Space between final character and caret. */
-    border-right: .15em solid var(--primary-color); /* Simulates the caret. */
-    animation: 
-        typing 3.5s steps(40, end),
-        blink-caret 1s step-end infinite
+@media (max-width: 45rem) { 
+    #banner { 
+        display: none;
+    }
 }
 
-@keyframes typing { 
-    from { width: 0 }
-    to { width: 100% }
-}
+@media (min-width: 45rem) { 
+    #banner > h1 { 
+        max-width: fit-content; /* Prevents caret from continuing to the screen edge. */
+        overflow: hidden; /* Hides characters that have not yet been 'typed'. */
+        white-space: nowrap; /* Ensures banner remains on a single line. */
+        padding-inline: 0.3rem; /* Space between final character and caret. */
+        border-right: .15em solid var(--primary-color); /* Simulates the caret. */
+        animation: 
+            typing 3.5s steps(40, end),
+            blink-caret 1s step-end infinite
+    }
 
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: var(--primary-color); }
-  }
+    @keyframes typing { 
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: var(--primary-color); }
+    }
+}
 
 
 /* Page visibility restored after parsing full CSS file to avoid flash over. */
