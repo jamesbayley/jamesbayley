@@ -1,3 +1,5 @@
+import './js/components/wavingMemoji.js';
+
 // Since there are two copies of each icon in the footer 
 // so that the correct icon can be rendered after the color
 // theme is determined, sometimes the page can load before 

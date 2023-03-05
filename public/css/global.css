@@ -71,5 +71,5 @@ footer > a > img {
 }
 
 main {
-  height: var(--main-height);
+  height: var(--main-height); 
 }

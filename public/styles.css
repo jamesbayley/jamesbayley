@@ -2,14 +2,6 @@
 @import url(./css/light.css);
 @import url(./css/dark.css);
 
-
-
-
-
-
-
-
-
 article,
 #banner,
 #blog-posts { 
@@ -169,27 +161,6 @@ footer > a:hover > img {
     transform-origin: center;
     transition: transform linear 0.05s;
 }
-
-img#avatar {
-    z-index: 999;
-    height: auto;
-    width: 22.5rem;
-    animation-delay: 0s;
-    animation-duration: 3s;
-    animation-name: rotate-memoji;
-    transform: rotate(40deg);
-    position: fixed;
-    left: -7rem;
-    top: 15%;
-}
-
-@keyframes rotate-memoji { 
-    from { 
-        transform: rotate(0deg);
-        left: -30.0rem;
-    }   
-}
-
 
 /* Banner appears to 'type' onto the screen. */
 
