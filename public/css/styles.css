@@ -1,6 +1,7 @@
-@import url(./css/global.css);
-@import url(./css/light.css);
-@import url(./css/dark.css);
+@import url(./modules/global.css);
+@import url(./modules/light.css);
+@import url(./modules/dark.css);
+
 
 article,
 #banner,
