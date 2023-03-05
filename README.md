@@ -1,7 +1,8 @@
 <div align="center">
   <img 
-    height="200px" 
-    src="https://www.jamesbayley.dev/assets/images/Memoji-Waving.png" 
+    width="140px"
+    height="140px" 
+    src=".github/assets/images/waving.png" 
     alt="Profile Photo."
   />
 
