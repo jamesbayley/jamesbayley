@@ -1,0 +1,14 @@
+@media (prefers-color-scheme: light) {
+  :root { 
+      --bg-color: #f4f4f4;
+      --font-color: #333333;
+  }
+
+  .light-theme { 
+      display: inline;
+  }
+
+  .dark-theme {
+      display: none;
+  }
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto:wght@300&display=swap');
+
+:root {
+    font-size: 11px;
+    
+}
+
+:root {
+    --primary-color: #E9AAC1;
+}
+
+:root { 
+  --header-height: 8rem;
+  --footer-height: 8rem;
+  --main-height: calc(100vh - var(--header-height) - var(--footer-height));
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--blackbox-color-light);
+}
+
+body { 
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  touch-action: pan-x pan-y;
+  overflow-y: scroll;
+  visibility: hidden; /* Hidden until page load to avoid flash. */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body,
+header,
+footer { 
+  background-color: var(--bg-color);
+}
+
+header,
+footer { 
+    z-index: 999;
+}
+
+header { 
+  height: var(--header-height);
+}
+
+footer { 
+  height: var(--footer-height);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  column-gap: 2.5rem;
+  bottom: 0;
+}
+
+footer > a > img { 
+  height: calc(0.25 * var(--footer-height)); /* Icons constrained to % of footer height. */
+}
+
+main {
+  height: var(--main-height); 
+}

@@ -1,26 +1,20 @@
 {
-	"name": "autobiography",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"args": { "VARIANT": "18-bullseye" }
+	"name": "jamesbayley",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:0-18",
+	"runArgs": ["--name", "jamesbayleydev"],
+	"forwardPorts": [ 5000 ],
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/powershell:1": {},
+		"ghcr.io/devcontainers/features/azure-cli:1": {} 
 	},
-	"runArgs": ["--name", "autobiography"],
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"dbaeumer.vscode-eslint",
 				"ritwickdey.liveserver"
-			],
-			"settings": {
-				"liveServer.settings.port": 8080,
-				// "liveServer.settings.root": "/",
-				"liveServer.settings.file": "index.html"
-			}
+			]
 		}
-	},
-	"forwardPorts": [ 8080 ],
-	"remoteUser": "node",
-	"features": {
-		"git": "latest"
 	}
 }
