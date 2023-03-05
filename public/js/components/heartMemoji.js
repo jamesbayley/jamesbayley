@@ -1,4 +1,4 @@
-class WavingMemoji extends HTMLElement { 
+class HeartMemoji extends HTMLElement { 
   constructor() { 
     super();
        
@@ -8,30 +8,28 @@ class WavingMemoji extends HTMLElement {
 
       <style>
         img {
-          top: 15vh;
-          left: -200px;
+          left: 5vw;
+          bottom: -200px;
           z-index: 9999;
           height: 200px;
           width: 200px;
           position: absolute;
-          animation-name: rotate-memoji;
+          animation-name: translate-memoji;
           animation-duration: 3s;
-          animation-delay: 1.5s;
+          animation-delay: 1s;
           animation-iteration-count: 1;
           animation-direction: normal;
           animation-fill-mode: forwards;
           animation-play-state: running;
         }
     
-        @keyframes rotate-memoji { 
+        @keyframes translate-memoji { 
           from { 
-              transform: rotate(0deg);
-              left: -200px;
+            bottom: -200px;
           }
           
           to {
-            transform: rotate(45deg);
-            left: -55px;
+            bottom: 0px;
           }
         }
       </style>
@@ -39,14 +37,14 @@ class WavingMemoji extends HTMLElement {
       <img 
         id="avatar"
         class="light-theme"
-        src="/assets/images/memoji/jacket/waving.png" 
-        alt="Apple memoji of blonde male with blue eyes waving and wearing a dark jacket." 
+        src="/assets/images/memoji/jacket/heart-sign.png" 
+        alt="Apple memoji of blonde male with blue eyes signing a heart and wearing a dark jacket." 
       />
       <img 
         id="avatar" 
         class="dark-theme"
-        src="/assets/images/memoji/hoodie/waving.png" 
-        alt="Apple memoji of blonde male with blue eyes waving and wearing a white hoodie."  
+        src="/assets/images/memoji/hoodie/heart-sign.png" 
+        alt="Apple memoji of blonde male with blue eyes signing a heart and wearing a white hoodie."  
       />
     `;
 
@@ -66,4 +64,4 @@ class WavingMemoji extends HTMLElement {
   }
 }
 
-customElements.define('waving-memoji', WavingMemoji);
+customElements.define('heart-memoji', HeartMemoji);
