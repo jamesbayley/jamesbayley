@@ -1,7 +1,7 @@
 <div align="center">
   <img 
-    height="175px" 
-    src=".github/assets/images/profile.png" 
+    height="200px" 
+    src="https://www.jamesbayley.dev/assets/images/Memoji-Waving.png" 
     alt="Profile Photo."
   />
 
