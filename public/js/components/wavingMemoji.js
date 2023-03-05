@@ -4,7 +4,7 @@ class WavingMemoji extends HTMLElement {
        
     const template = document.createElement('template');
     template.innerHTML = `
-      <link rel="stylesheet" href="../../styles.css" />
+      <link rel="stylesheet" href="../../css/styles.css" />
 
       <style>
         img {
@@ -13,26 +13,35 @@ class WavingMemoji extends HTMLElement {
           z-index: 9999;
           height: 200px;
           width: 200px;
-          position: absolute;
-          animation-name: rotate-memoji;
-          animation-duration: 3s;
-          animation-delay: 1.5s;
+          position: fixed;
           animation-iteration-count: 1;
           animation-direction: normal;
           animation-fill-mode: forwards;
           animation-play-state: running;
         }
+
+        @media ((max-width: 700px) and (orientation: landscape)) { 
+          img { 
+            animation-name: exit-memoji;
+            animation-duration: 1s;
+            animation-delay: 0s;
+          }
+        }
+
+        img { 
+          animation-name: enter-memoji;
+          animation-duration: 1s;
+          animation-delay: 0.25s;
+        }
     
-        @keyframes rotate-memoji { 
-          from { 
-              transform: rotate(0deg);
-              left: -200px;
-          }
-          
-          to {
-            transform: rotate(45deg);
-            left: -55px;
-          }
+        @keyframes enter-memoji { 
+          0% { transform: rotate(0deg); left: -200px; }
+          100% { transform: rotate(45deg); left: -55px; }
+        }
+
+        @keyframes exit-memoji { 
+          0% { transform: rotate(45deg); left: -55px; }
+          100% { transform: rotate(0deg); left: -200px; }
         }
       </style>
 

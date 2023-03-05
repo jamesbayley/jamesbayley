@@ -4,7 +4,7 @@ class PhoneCallMemoji extends HTMLElement {
        
     const template = document.createElement('template');
     template.innerHTML = `
-      <link rel="stylesheet" href="../../styles.css" />
+      <link rel="stylesheet" href="../../css/styles.css" />
 
       <style>
         img {
@@ -13,24 +13,35 @@ class PhoneCallMemoji extends HTMLElement {
           z-index: 9999;
           height: 200px;
           width: 200px;
-          position: absolute;
-          animation-name: translate-memoji;
-          animation-duration: 3s;
-          animation-delay: 0.25s;
+          position: fixed;
           animation-iteration-count: 1;
           animation-direction: normal;
           animation-fill-mode: forwards;
           animation-play-state: running;
         }
-    
-        @keyframes translate-memoji { 
-          from { 
-            bottom: -200px;
+
+        img { 
+          animation-name: exit-memoji;
+          animation-duration: 1s;
+          animation-delay: 0s;
+        }
+
+        @media ((max-width: 700px) and (orientation: landscape)), (min-width: 900px) { 
+          img { 
+            animation-name: enter-memoji;
+            animation-duration: 3s;
+            animation-delay: 0.25s;
           }
-          
-          to {
-            bottom: 0px;
-          }
+        }
+
+        @keyframes enter-memoji { 
+          0% { bottom: -200px; }
+          100% { bottom: 0px; }
+        }
+        
+        @keyframes exit-memoji { 
+          0% { bottom: 0px; }
+          100% { bottom: -200px; }
         }
       </style>
 
