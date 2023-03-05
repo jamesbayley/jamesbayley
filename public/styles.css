@@ -31,6 +31,14 @@
     footer > a > img.dark-theme {
         display: none;
     }
+
+    img.light-theme#avatar { 
+        display: inline;
+    }
+
+    img.dark-theme#avatar {
+        display: none;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,6 +47,14 @@
     }
 
     footer > a > img.dark-theme {
+        display: inline;
+    }
+
+    img.light-theme#avatar { 
+        display: none;
+    }
+
+    img.dark-theme#avatar {
         display: inline;
     }
 }
