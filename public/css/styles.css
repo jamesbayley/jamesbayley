@@ -165,31 +165,23 @@ footer > a:hover > img {
 
 /* Banner appears to 'type' onto the screen. */
 
-@media (max-width: 45rem) { 
-    #banner { 
-        display: none;
-    }
+#banner > h1 { 
+    max-width: fit-content; /* Prevents caret from continuing to the screen edge. */
+    overflow: hidden; /* Hides characters that have not yet been 'typed'. */
+    white-space: nowrap; /* Ensures banner remains on a single line. */
+    padding-inline: 0.3rem; /* Space between final character and caret. */
+    border-right: .15em solid var(--primary-color); /* Simulates the caret. */
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret 1s step-end infinite;
 }
 
-@media (min-width: 45rem) { 
-    #banner > h1 { 
-        max-width: fit-content; /* Prevents caret from continuing to the screen edge. */
-        overflow: hidden; /* Hides characters that have not yet been 'typed'. */
-        white-space: nowrap; /* Ensures banner remains on a single line. */
-        padding-inline: 0.3rem; /* Space between final character and caret. */
-        border-right: .15em solid var(--primary-color); /* Simulates the caret. */
-        animation: 
-            typing 3.5s steps(40, end),
-            blink-caret 1s step-end infinite
-    }
+@keyframes typing { 
+    from { width: 0 }
+    to { width: 100% }
+}
 
-    @keyframes typing { 
-        from { width: 0 }
-        to { width: 100% }
-    }
-
-    @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: var(--primary-color); }
-    }
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--primary-color); }
 }

@@ -10,8 +10,6 @@ class MemojiManager extends HTMLElement {
     template.innerHTML = `
       <link rel="stylesheet" href="../../css/styles.css" />
 
-      <heart-memoji></heart-memoji>
-      <phone-call-memoji></phone-call-memoji>
       <waving-memoji></waving-memoji>
     `;
 
