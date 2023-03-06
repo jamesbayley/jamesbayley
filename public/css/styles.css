@@ -37,7 +37,7 @@ footer,
 }
 
 #banner > h1 {
-    font-size: min(5vw, 5rem);
+    font-size: min(max(2.25rem, 5vw), 5rem);
 }
 
 article,
