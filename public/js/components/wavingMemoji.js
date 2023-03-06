@@ -20,35 +20,29 @@ class WavingMemoji extends HTMLElement {
           animation-play-state: running;
         }
 
-        @media ((max-width: 700px) and (orientation: landscape)) { 
-          img { 
-            animation-name: exit-memoji;
-            animation-duration: 1s;
-            animation-delay: 0s;
-          }
-        }
-
         img { 
           animation-name: enter-memoji;
-          animation-duration: 1s;
-          animation-delay: 0.25s;
+          animation-duration: 1.25s;
+          animation-delay: 3.75s;
         }
     
         @keyframes enter-memoji { 
-          0% { transform: rotate(0deg); left: -200px; }
-          100% { transform: rotate(45deg); left: -55px; }
-        }
+          0% { 
+            transform: rotate(0deg); 
+            left: -200px; 
+          }
 
-        @keyframes exit-memoji { 
-          0% { transform: rotate(45deg); left: -55px; }
-          100% { transform: rotate(0deg); left: -200px; }
+          100% { 
+            transform: rotate(45deg); 
+            left: -55px; 
+          }
         }
       </style>
 
       <img 
         id="avatar"
         class="light-theme"
-        src="/assets/images/memoji/jacket/waving.png" 
+        src="/assets/images/memoji/construction/waving.png" 
         alt="Apple memoji of blonde male with blue eyes waving and wearing a dark jacket." 
       />
       <img 

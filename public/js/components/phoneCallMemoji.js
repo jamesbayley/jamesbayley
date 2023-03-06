@@ -26,7 +26,7 @@ class PhoneCallMemoji extends HTMLElement {
           animation-delay: 0s;
         }
 
-        @media ((max-width: 700px) and (orientation: landscape)), (min-width: 900px) { 
+        @media (min-width: 900px) { 
           img { 
             animation-name: enter-memoji;
             animation-duration: 3s;
