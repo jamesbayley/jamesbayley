@@ -9,7 +9,7 @@
   <h1>Welcome!</h1>
   <p>I appreciate you stopping by.</p>
   
-  ![Software: Engineer](https://img.shields.io/badge/Software-Engineer-9d53c3)
+  [![Software: Engineer](https://img.shields.io/badge/Software-Engineer-9d53c3)](https://www.jamesbayley.dev)
   [![GitHub: Sponsors](https://img.shields.io/badge/GitHub-Sponsors-yellow)](https://www.github.com/sponsors/jamesbayley)
 
   [![Works At: WSP](https://img.shields.io/badge/Works_At-WSP-red)](https://www.wsp.com)
