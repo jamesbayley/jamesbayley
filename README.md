@@ -19,7 +19,7 @@
 </div>
 
 <p align="justify">
-🪴 Personally, I’m a practicing Minimalist, Essentialist and Conversationalist. I prefer to keep things simple and avoid complexity. I love talking with people, building relationships, mentoring peers and connecting mutual friends. 
+🪴 I’m a practicing Minimalist, Essentialist and Conversationalist. I prefer to keep things simple and avoid complexity. I love talking with people, building relationships, mentoring peers and connecting mutual friends. 
 
 📚 I’m an incurably curious individual, always learning something new and thinking deeply about big ideas and life purpose. I want to live a life of healthy social impact and help to shape conversation around Artificial Intelligence, Technology, Diversity, Inclusivity and Work. 
 
