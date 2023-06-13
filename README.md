@@ -10,7 +10,7 @@
   <p>I appreciate you stopping by.</p>
   
   ![Software: Engineer](https://img.shields.io/badge/Software-Engineer-9d53c3)
-  ![Building: Open Source](https://img.shields.io/badge/Building-Open_Source-yellow)
+  [![GitHub: Sponsors](https://img.shields.io/badge/GitHub-Sponsors-yellow)](https://www.github.com/sponsors/jamesbayley)
 
   [![Works At: WSP](https://img.shields.io/badge/Works_At-WSP-red)](https://www.wsp.com)
   [![Visit My: LinkedIn](https://img.shields.io/badge/Visit_My-LinkedIn-blue)](https://www.linkedin.com/in/jsbayley)  
