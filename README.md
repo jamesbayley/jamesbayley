@@ -10,12 +10,12 @@
   <p>I appreciate you stopping by.</p>
   
   ![Software: Engineer](https://img.shields.io/badge/Software-Engineer-9d53c3)
-  ![Building: Open Source](https://img.shields.io/badge/Building-Open_Source-brightgreen)
+  ![Building: Open Source](https://img.shields.io/badge/Building-Open_Source-yellow)
 
   [![Works At: WSP](https://img.shields.io/badge/Works_At-WSP-red)](https://www.wsp.com)
   [![Visit My: LinkedIn](https://img.shields.io/badge/Visit_My-LinkedIn-blue)](https://www.linkedin.com/in/jsbayley)  
   
-  [![Hometown: Birmingham, UK](https://img.shields.io/badge/Hometown-Birmingham%2C%20UK-yellow)](https://goo.gl/maps/4FykNzHGVjBEMqPv5)
+  [![Hometown: Birmingham, UK](https://img.shields.io/badge/Hometown-Birmingham%2C%20UK-brightgreen)](https://goo.gl/maps/4FykNzHGVjBEMqPv5)
 </div>
 
 ## Personal
@@ -39,7 +39,7 @@
 ## Open Source
 
 <p align="justify">
-🛠️ In my spare time, I love building open-source software. I find transparent development to be more rewarding, impactful and social. My ambition is to work in open-source on a full-time basis, so that my efforts have maximum positive impact for the AEC community. Please visit my [GitHub Sponsors](https://github.com/sponsors/jamesbayley) profile if you'd like to offer support.
+🛠️ In my spare time, I love building open-source software. I find transparent development to be more rewarding, impactful and social. My ambition is to work in open-source on a full-time basis, so that my efforts have maximum positive impact for the AEC community. Please visit my <a href="https://github.com/sponsors/jamesbayley" target="_blank">GitHub Sponsors</a> profile if you'd like to offer support.
 </p>
   
 ## New Venture
