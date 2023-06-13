@@ -29,7 +29,7 @@
 ## Professional
  
 <p align="justify">
-🧑🏼‍💻 I’m also a Software Engineer with expertise in Web Development, Secure DevOps and Microsoft Azure Cloud. I enjoy Frontend Engineering: building lean, offline-first progressive web applications (PWAs) with intuitive, beautiful experiences that are a joy to use.
+🧑🏼‍💻 I’m a Software Engineer with expertise in Web Development, Secure DevOps and Microsoft Azure Cloud. I enjoy Frontend Engineering: building lean, offline-first progressive web applications (PWAs) with intuitive, beautiful experiences that are a joy to use.
 
 🌍 I’ve designed and presented innovative technology solutions to Global Leaders at WSP, helping to steer radical innovation in a company of over 60,000 employees. I am well-networked across the global business and have met incredible colleagues across EMEA, the Americas, and Australasia.
 
