@@ -33,5 +33,5 @@
 
 🚀 My goal for 2023 is to launch an open-source software company (initially as a side-venture), built upon the core tenets of transparency, trust, privacy, quality and tech-for-good. I aspire for steady, sustainable growth and intend to enjoy the process of creating something special.
 
-🐣 I’m in the early stages of forming the company, defining the vision and nurturing the brand. If anyone would like to hear more, get involved, or offer insightful guidance, I’d appreciate you reaching out!
+🐣 I’m in the early stages of forming the company, defining the vision and nurturing the brand. If anyone would like to hear more, get involved, or offer insightful guidance, please reach out!
 </p>
