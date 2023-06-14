@@ -8,12 +8,13 @@
   
   <h1>Welcome!</h1>
   <p>I appreciate you stopping by.</p>
+
+  [![LinkedIn: Follow](https://img.shields.io/badge/LinkedIn-Follow-blue)](https://www.linkedin.com/in/jsbayley)
+  [![GitHub: Sponsors](https://img.shields.io/badge/GitHub-Sponsors-yellow)](https://www.github.com/sponsors/jamesbayley)
+  [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blueviolet)](https://choosealicense.com/licenses/agpl-3.0/)
   
   [![Software: Engineer](https://img.shields.io/badge/Software-Engineer-9d53c3)](https://www.jamesbayley.dev)
-  [![GitHub: Sponsors](https://img.shields.io/badge/GitHub-Sponsors-yellow)](https://www.github.com/sponsors/jamesbayley)
-
-  [![Works At: WSP](https://img.shields.io/badge/Works_At-WSP-red)](https://www.wsp.com)
-  [![Visit My: LinkedIn](https://img.shields.io/badge/Visit_My-LinkedIn-blue)](https://www.linkedin.com/in/jsbayley)  
+  [![Employer: UK](https://img.shields.io/badge/Employer-WSP-red)](https://www.wsp.com)
   
   [![Hometown: Birmingham, UK](https://img.shields.io/badge/Hometown-Birmingham%2C%20UK-brightgreen)](https://goo.gl/maps/4FykNzHGVjBEMqPv5)
 </div>
