@@ -4,7 +4,7 @@ class WavingMemoji extends HTMLElement {
        
     const template = document.createElement('template');
     template.innerHTML = `
-      <link rel="stylesheet" href="../../css/styles.css" />
+      <link rel="stylesheet" href="/global.css" />
 
       <style>
         img {
@@ -23,7 +23,7 @@ class WavingMemoji extends HTMLElement {
         img { 
           animation-name: enter-memoji;
           animation-duration: 1.25s;
-          animation-delay: 3.75s;
+          animation-delay: 1s;
         }
     
         @keyframes enter-memoji { 

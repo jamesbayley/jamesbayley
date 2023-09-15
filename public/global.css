@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+:root {
+    font-size: 11px;   
+}
+
+:root { 
+  --header-height: 8rem;
+  --footer-height: 8rem;
+}
+
+:root {
+  --font-color: #151515;
+  --accent-color: #E9AAC1;
+  --background-color: #F4F4F4;
+}
+
+@media (prefers-color-scheme: light) {
+  .light-theme { 
+    display: inline;
+  }
+
+  .dark-theme {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root { 
+    --background-color: #333333;
+    --font-color: #f4f4f4;
+  }
+
+  .light-theme { 
+    display: none;
+  }
+
+  .dark-theme {
+    display: inline;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  color: var(--font-color);
+}
+
+body { 
+  width: 100dvw;
+  height: 100dvh;
+  position: relative;
+  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  touch-action: pan-x pan-y;
+  overflow-y: scroll;
+  visibility: hidden; /* Hidden until page load to avoid flash. */
+}
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
+body, header, main { 
+  background-color: var(--background-color);
+}
+
+header, footer { 
+  z-index: 999;
+}
+
+header { 
+  height: var(--header-height);
+}
+
+main {
+  height: calc(100dvh - var(--header-height) - var(--footer-height)); 
+}
+
+footer { 
+  height: var(--footer-height);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  column-gap: 2.5rem;
+  bottom: 0;
+}
+
+footer img { 
+  height: calc(0.35 * var(--footer-height)); /* Icons constrained to % of footer height. */
+}
+
+#banner { 
+  height: inherit; /* Updates automatically if <main> height re-computed. */
+}
+
+main, article { 
+    top: var(--header-height); /* Offsets main to account for fixed header. */
+}
+
+header, #banner {
+  text-align: center;
+}
+
+header > p, header > div { 
+  margin-block-start: 1rem; /* Offsets text from top-edge of screen. */
+}
+
+footer, #banner { 
+  display: flex;
+  justify-content: center;
+}
+
+#banner {
+  flex-direction: column;
+  align-items: center; /* Horizontally centers the banner. */
+}
+
+#banner > h1 {
+  font-size: min(max(2.25rem, 5vw), 5rem);
+}
+
+h1, p {
+  color: var(--font-color);
+}
+
+h1 { 
+  font-size: 2.6rem;
+  font-weight: lighter;
+  font-family: 'Cinzel Decorative', Arial, Helvetica, Sans-Serif;
+}
+
+p { 
+  font-size: min(2.7vw, 1.4rem);
+  font-family: 'Roboto', Helvetica, Sans-Serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+  a:hover,
+  a:focus { 
+    opacity: 0.6;
+  }
+
+  a:active { 
+    opacity: 0.4;
+  }
+
+footer a:hover img {
+  transform: scale(1.1, 1.1); /* Icons enlarge on hover. */
+  transform-origin: center;
+  transition: transform linear 0.05s;
+}

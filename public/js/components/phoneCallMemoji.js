@@ -4,7 +4,7 @@ class PhoneCallMemoji extends HTMLElement {
        
     const template = document.createElement('template');
     template.innerHTML = `
-      <link rel="stylesheet" href="../../css/styles.css" />
+      <link rel="stylesheet" href="global.css" />
 
       <style>
         img {
