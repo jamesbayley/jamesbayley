@@ -1,14 +1,14 @@
-class PhoneCallMemoji extends HTMLElement { 
+class HeartMemoji extends HTMLElement { 
   constructor() { 
     super();
        
     const template = document.createElement('template');
     template.innerHTML = `
-      <link rel="stylesheet" href="global.css" />
+      <link rel="stylesheet" href="/global.css" />
 
       <style>
         img {
-          right: 5vw;
+          left: 5vw;
           bottom: -200px;
           z-index: 9999;
           height: 200px;
@@ -26,19 +26,19 @@ class PhoneCallMemoji extends HTMLElement {
           animation-delay: 0s;
         }
 
-        @media (min-width: 900px) { 
+        @media (min-width: 1200px) { 
           img { 
             animation-name: enter-memoji;
-            animation-duration: 3s;
+            animation-duration: 4s;
             animation-delay: 0.25s;
           }
         }
-
+    
         @keyframes enter-memoji { 
           0% { bottom: -200px; }
           100% { bottom: 0px; }
         }
-        
+
         @keyframes exit-memoji { 
           0% { bottom: 0px; }
           100% { bottom: -200px; }
@@ -48,14 +48,14 @@ class PhoneCallMemoji extends HTMLElement {
       <img 
         id="avatar"
         class="light-theme"
-        src="/assets/images/memoji/jacket/phone-call.png" 
-        alt="Apple memoji of blonde male with blue eyes signing a phone call and wearing a dark jacket." 
+        src="/assets/images/memoji/jacket/heart-sign.png" 
+        alt="Apple memoji of blonde male with blue eyes signing a heart and wearing a dark jacket." 
       />
       <img 
         id="avatar" 
         class="dark-theme"
-        src="/assets/images/memoji/hoodie/phone-call.png" 
-        alt="Apple memoji of blonde male with blue eyes signing a phone call and wearing a white hoodie."  
+        src="/assets/images/memoji/hoodie/heart-sign.png" 
+        alt="Apple memoji of blonde male with blue eyes signing a heart and wearing a white hoodie."  
       />
     `;
 
@@ -75,4 +75,4 @@ class PhoneCallMemoji extends HTMLElement {
   }
 }
 
-customElements.define('phone-call-memoji', PhoneCallMemoji);
+customElements.define('heart-memoji', HeartMemoji);
