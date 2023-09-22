@@ -17,7 +17,7 @@
 </div>
 
 <p align="justify">
-  I’m a British Computer Programmer and Engineer. I enjoy building lean, intuitive, beautiful experiences that are a joy to use and distraction-free. I’m incurably curious: always learning something new and thinking deeply. I started my career as a Structural Engineer specialised in High-Rise Structures and Finite Element Analysis. Nowadays, I dedicate my time to the development of bespoke Structural Analysis and Design software for web and Linux.
+  I’m a British Computer Programmer and Structural Engineer. I enjoy building lean, intuitive, beautiful experiences that are a joy to use and distraction-free. I’m incurably curious: always learning something new and thinking deeply. I started my career as a Structural Engineer specialised in High-Rise Structures and Finite Element Analysis. Nowadays, I dedicate my time to the development of bespoke Structural Analysis and Design software for web and Linux.
 </p>
 
 <p align="justify">
