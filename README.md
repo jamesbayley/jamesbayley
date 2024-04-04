@@ -10,10 +10,14 @@
   [![GitHub: Sponsors](https://img.shields.io/badge/GitHub-Sponsors-yellow)](https://www.github.com/sponsors/jamesbayley)
 </div>
 
-<p align="justify">
-  I’m a British Computer Programmer and Structural Engineer. I enjoy building lean, intuitive, beautiful experiences that are a joy to use and distraction-free. I’m incurably curious: always learning something new and thinking deeply. I started my career as a Structural Engineer specialised in High-Rise Structures and Finite Element Analysis. Nowadays, I dedicate my time to the development of bespoke Structural Analysis and Design software for web and Linux.
-</p>
+<div align="justify">
+  <p>
+    I’m a British Software Architect with experience in TypeScript and .NET. I started my career as a Structural Engineer specialised in High-Rise Structures and Finite Element Analysis. Nowadays, I dedicate my working hours to the development of Structural Analysis and Design software.
+  </p>
+  
+  <p>
+    I enjoy building lean, intuitive, beautiful experiences that are a joy to use and distraction-free. I’m incurably curious: always learning something new and thinking deeply. I love building open-source software. I find transparent development to be more rewarding, impactful and social. I prefer to keep things simple and avoid complexity. I love talking with  people, building relationships, mentoring peers and connecting mutual friends. I want to live a life of healthy social impact and to help shape conversation around artificial intelligence, technology and work.
+  </p>
+</div>
 
-<p align="justify">
-  I love building open-source software. I find transparent development to be more rewarding, impactful and social. I've recently become a Gopher. As a practicing Minimalist, I resonate strongly with the underlying Go philosophy. I prefer to keep things simple and avoid complexity. I love talking with people, building relationships, mentoring peers and connecting mutual friends. I want to live a life of healthy social impact and to help shape conversation around artificial intelligence, technology and work.
-</p>
+
