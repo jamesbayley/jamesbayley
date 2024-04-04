@@ -9,5 +9,5 @@
   [![LinkedIn: Follow](https://img.shields.io/badge/LinkedIn-Follow-blue)](https://www.linkedin.com/in/jsbayley)
   [![GitHub: Sponsors](https://img.shields.io/badge/GitHub-Sponsors-yellow)](https://www.github.com/sponsors/jamesbayley)
 
-  ![Civil Engineering](https://img.shields.io/badge/Civil-Engineering-violet)
+  [![Civil Engineering](https://img.shields.io/badge/Read-My_Blog-violet)](https://jamesbayley.blog)
 </div>
