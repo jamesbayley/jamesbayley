@@ -10,7 +10,4 @@
   [![GitHub: Sponsors](https://img.shields.io/badge/GitHub-Sponsors-yellow)](https://www.github.com/sponsors/jamesbayley)
 
   ![Civil Engineering](https://img.shields.io/badge/Civil-Engineering-violet)
-  
-
-  <p>🛠️ 🪚 🏗️</p>
 </div>
